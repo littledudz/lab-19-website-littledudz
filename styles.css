@@ -1,0 +1,173 @@
+html {
+    color: black
+}
+
+body {
+    background-color: white
+}
+
+h1 {
+    text-align: center;
+    border-top: 3px solid #9FC3CF;
+    border-bottom: 3px solid #9FC3CF;
+}
+
+.footer {
+      text-align: center;
+      border-top: 2px solid #9FC3CF;
+      padding-top: 1.5em;
+}
+
+.clear {
+    clear:both;
+}  
+
+.navbar {
+    background-color: #9FC3CF;
+}
+
+.margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.margin-headers {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.margin-special {
+    margin-left: 12%;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.contact-text {
+    padding-top: 1em;
+}
+
+.inputs {
+    width: 75%;
+    padding-top: -6.25em;
+    border-radius: 0.5em;
+}
+
+#top-links {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+#top-links li {
+    float: none;
+    display: inline-block;
+}
+
+#name-top {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 3.5em;
+    text-align: center; 
+}
+
+#job {
+    margin-top: -1em;
+    text-align: center;
+}
+
+#about {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#border {
+    background-color: #9FC3CF;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 3em;
+    margin-top: 2em;
+    width: 80%;
+    height: 31em;
+    text-align: center;
+    border-radius: 0.5em;
+}
+#name-text {
+    padding-top: 30px;
+}
+
+#send {
+    width: 30%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    padding-top: 0.5em;
+    margin-left: 35%;
+    margin-top: -7em;
+    margin-bottom: 3.75em;
+    text-align: center;
+    display: block;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+@media screen and (min-width:641px) {
+    .column1 {
+        float: left;
+        width: 30%;
+        margin-left: 10%;
+    }
+
+    .column2 {
+        float: right;
+        width: 35%;
+        justify-content: right;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width:640px) {
+    .column1 {
+        float: left;
+        width: 70%;
+        margin-left: 10%; 
+        display: block;
+        margin-bottom: 0em;
+    }
+
+    .column2 {
+        float: left;
+        width: 70%;
+        margin-left: 10%;
+        display: block;
+        margin-top: 0em;
+    }
+}
+
+@media screen and (min-width:961px) {
+    #border {     
+        height: 31em;
+    }
+    #messages-box {
+        height: 35%;
+    }
+}
+
+@media screen and (min-width:641px) {
+    #border {
+        height: 28em;
+    }
+    #messages-box {
+        height: 32%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    #border {
+        height: 25em;
+    }
+    #messages-box {
+        height: 25%;
+    }
+}
